@@ -1,0 +1,18 @@
+Write a function called "getAllLetters".
+
+Given a word, "getAllLetters" returns an array containing every character in the word. 
+
+Notes:
+* If given an empty string, it should return an empty array.
+--------------------------------------------------------------------------------------
+
+function getAllLetters(str) {
+
+  var array = [];
+ for (var i = 0; i < str.length; i++) {
+array.push(str[i]);
+}
+return array;
+}
+
+getAllLetters('Radagast');
